@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport"
+        content="width=device-width,
+                 initial-scale=1">
+  
+ 
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+<body>
+  <div class="container mt-4">
+    <style>
+        body{
+            background-color: lightblue;
+        }
+    </style>
+    <h2>Registration Form</h2>
+    <div class="form-group">
+  <label>Name</label>
+  <input type="text"
+         class="form-control">
+</div>
+<div class="mb-3">
+  <label class="form-label">Password</label>
+  <input type="password"
+         class="form-control">
+  <small class="form-text text-muted">
+    Must be 8 to 10 characters.
+  </small>
+</div>
+<div class="mb-3">
+  <label class="form-label">Country</label>
+  <select class="form-select">
+    <option>India</option>
+    <option>Pakistan</option>
+    <option>Bangladesh</option>
+    <option>Nepal</option>
+    <option>America</option>
+    <option>South korea</option>
+  </select>
+</div>
+<div class="mb-3">
+    <label class="form-label">Email</label>
+    <input type="text"  class="form-control">
+</div>
+<div class="mb-3">
+  <label class="form-label">
+    Upload file
+  </label>
+  <input type="file"
+         class="form-control">
+</div>
+<div class="mb-3">
+  <label class="form-label">Amount</label>
+  <input type="range"
+         class="form-range"
+         min="0" max="100">
+</div>
+<label class="form-label">Hobbies</label>
+ 
+<div class="form-check">
+  <input type="checkbox"
+         class="form-check-input"
+         id="musicCheck">
+  <label class="form-check-label"
+         for="musicCheck">Music</label>
+         </div>
+         <div class="form-check"></div>
+<input type="checkbox"
+class="form-check-input" id="sportsCheck">
+         <label class="form-check-label"
+         for="sportsCheck">Sports</label></div>
+         
+</div>
+
+       <label class="form-label">Gender</label><br>
+        <input type="radio" name="gender"
+         class="form-check-input" id="m">
+       <label class="form-check-label"
+         for="f">Male</label>
+         <div class="form-check">
+           <input type="radio" name="gender"
+         class="form-check-input" id="f">
+                 <label class="form-check-label"
+         for="m">Female</label>
+</div><br>
+
+</div>
+<div class="input-group">
+  <span class="input-group-text">@</span>
+  <input class="form-control"
+         placeholder="username">
+</div>
+ 
+<div class="input-group">
+  <span class="input-group-text">Rs</span>
+  <input class="form-control"
+         placeholder="Amount">
+</div><br>
+      <label class="form-label">Notifications</label><br>
+       <div class="form-check form-switch">
+       <input type="checkbox" role="switch"
+         class="form-check-input"
+         id="notif">
+        <label class="form-check-label"
+         for="notif">Email alerts</label><br>
+         <input type="checkbox" role="switch"
+         class="form-check-input"
+         id="notif">
+         <label class="form-check-label"
+         for="notif">SMS alerts</label>
+</div><br>
+    <button class="btn btn-primary">
+    Submit
+  </button>
+</div>
+ </div>
+</body>
+</html>
